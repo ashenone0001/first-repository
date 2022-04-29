@@ -1,5 +1,5 @@
 import random
-with open('word_file2.txt' , 'r') as file:
+with open('word_file2.txt' , 'r') as file: #word_file2.txt is  a name of file i have , replace it with one in ur computer
     file1 = file.read()
 file2 = file1.split()
 def random_word() :
